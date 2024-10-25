@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="limosine, car with driver, car in egypt, rent driver, ">
+    <meta name="author" content="Mohamed Tawfik">
+    <meta name="generator" content="">
+    <title>نوح ليموزين</title>
+
+    <script src="assets/js/color-modes.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/js/noah.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link id="carouselCanonical" rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel-rtl/">
+    <link id="bootstrapCss" href="assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link id="carouselCss" href="assets/dist/css/carousel.rtl.css" rel="stylesheet">
+
+    <style>
+
+      .flag-us {
+          background-image: url(assets/img/flags/us.svg);
+      }
+
+      .flag-eg {
+          background-image: url(assets/img/flags/eg.svg);
+      }
+
+      .flag {
+          height: 1.5em;
+          width: 1.5em;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          display: inline-block;
+          vertical-align: middle;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+
+      .bd-mode-toggle .dropdown-menu .active .bi {
+        display: block !important;
+      }
+    </style>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+      <symbol id="telephone-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+      </symbol>
+      <symbol id="whatsapp" viewBox="0 0 16 16">
+        <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-4 me-4 bd-mode-toggle">
+      <button class="btn btn-success py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-call"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Call us (auto)">
+        <svg class="bi my-1" width="1em" height="1em"><use href="#telephone-fill"></use></svg>
+        <span class="visually-hidden" id="bd-call-text">Call us</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-call-text">
+        <li>
+          <button id="whatsappChat" type="button" class="dropdown-item d-flex align-items-center" aria-pressed="false">
+            <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#whatsapp"></use></svg>
+            واتساب
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button id="phoneCall" type="button" class="dropdown-item d-flex align-items-center" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 " width="1em" height="1em"><use href="#telephone-fill"></use></svg>
+            اتصال
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a id="navBarBrand" class="navbar-brand" href="#">نوح ليموزين</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="تبديل التنقل">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a id="mainPageNavBar" class="nav-link active" aria-current="page" href="#">الصفحة الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a id="whoAreWeNavBar" class="nav-link active" href="#who_are_we">من نحن</a>
+          </li>
+          <li class="nav-item">
+            <a id="contactUsNavBar" class="nav-link active" href="#contact_us">تواصل معنا</a>
+          </li>
+        </ul>
+
+        <div class="d-flex">
+          <div class="dropdown mb-2 me-2 bd-mode-toggle" id="langDropDown">
+              <a data-mdb-dropdown-init class="dropdown-toggle py-2 dropdown-toggle d-flex align-items-center" href="#" id="Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="flag flag-us" id="languageSelected"></i>
+              </a>
+
+              <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="Dropdown">
+                  <li>
+                    <button type="button" id="enLangBtn" class="dropdown-item d-flex" aria-pressed="false" onclick="changeLang(this, 'us')">
+                      <i class="flag flag-us me-2"></i>
+                      English
+                      <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                    </button>
+                  </li>
+                  <li>
+                    <button type="button" id="arLangBtn" class="dropdown-item d-flex" aria-pressed="false" onclick="changeLang(this, 'eg')">
+                      <i class="flag flag-eg me-2"></i>
+                      العربية
+                      <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                    </button>
+                  </li>
+              </ul>
+          </div>
+          <!--
+          <div class="dropdown mb-2 me-2 bd-mode-toggle">
+            <button class="btn btn-secondary py-2 dropdown-toggle d-flex align-items-center"
+                    id="bd-theme"
+                    type="button"
+                    aria-expanded="false"
+                    data-bs-toggle="dropdown"
+                    aria-label="Toggle theme (auto)">
+              <svg class="bi theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+              <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+                  <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+                  <div id="themeLight" > ضوء </div>
+                  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+                  <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+                  <div id="themeDark" >  ظلام </div>
+                  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                </button>
+              </li>
+              <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto" aria-pressed="true">
+                  <svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#circle-half"></use></svg>
+                  <div id="themeAuto" >  أتوماتيك </div>
+                  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+          -->
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/Mitsubishi-Xpander_1.jpeg" alt="Mitsubishi Xpander" class="img-fluid" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 id="carouselTitle1">الأسر الكبيره</h1>
+            <p id="carouselText1" class="opacity-75">سياره ميتسوبيشي اكسبندر لنقل اسره ٦ افراد</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/Toyota-corolla_1.jpeg" alt="Toyota Corolla" class="img-fluid" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 id="carouselTitle2" >متعة السفر</h1>
+            <p id="carouselText2" class="opacity-75">سيارة سيدان للراحة والرفاهية</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/Hyundai-Elantra_1.jpeg" alt="Hyundai Elantra" class="img-fluid" role="img" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 id="carouselTitle3">عنوان للرفاهية</h1>
+            <p id="carouselText3" class="opacity-75">سيارة سيدان للتنقل الآمن</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">السابق</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">التالي</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="assets/img/airport.jpeg" class="bd-placeholder-img rounded-circle shadow-4-strong" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" />
+        <h2 id="marketingTitle1" class="fw-normal">جميع مطارات مصر</h2>
+        <p id="marketingText1">تمتع بأفضل خدمة توصيل المطار وبأقل الأسعار</p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <img src="assets/img/alex.jpeg" class="bd-placeholder-img rounded-circle shadow-4-strong" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" />
+        <h2 id="marketingTitle2" class="fw-normal">بين المحافظات</h2>
+        <p id="marketingText2">سيارات حديثة ومكيفة، وسائقين مؤهلات عليا وخبرة بخدمة الليموزين</p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-lg-4">
+        <img src="assets/img/wedding.jpeg" class="bd-placeholder-img rounded-circle shadow-4-strong" width="140" height="140" preserveAspectRatio="xMidYMid slice" focusable="false" />
+        <h2 id="marketingTitle3" class="fw-normal">حفلات زفاف</h2>
+        <p id="marketingText3"> سيارات فارهة لحفلات الزفاف</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+    <a id="who_are_we"></a>
+    <hr class="featurette-divider">
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 id="feature1Title" class="featurette-heading fw-normal lh-1" style="margin-top: 0rem;margin-bottom: 2rem">من نحن ؟  ō͡≡о</h2>
+        <p id="feature1Line1" class="lead">واحدة من أفضل شركات الليموزين والنقل السياحي داخل مصر</p>
+        <p id="feature1Line2" class="lead">مجموعة متنوعة من السيارات الفاخرة، بدءًا من السيدان وصولًا إلى سيارات SUVs و H1 و HIACE المريحة</p>
+        <p id="feature1Line3" class="lead">مجموعة سائقين مدربين جيدًا على أفضل الطرق وجودة القيادة والتعامل مع مختلف الظروف</p>
+        <p id="feature1Line4" class="lead">نفهم أهمية التوقيت. يقدم فريقنا خدمة مرنة  تحديد الجدول الزمني الذي يناسبك</p>
+        <p id="feature1Line5" class="lead">اتركوا لنا الاهتمام بتفاصيل النقل، واستمتعوا بكل لحظة من يومكم الخاص</p>
+      </div>
+      <div class="col-md-5">
+          <img src="assets/img/xpander_inside2.jpeg"  width="700" height="700" alt="Mitsubishi Xpander inside" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <title>ليموزين للاسر الكبيرة</title>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 id="feature2Title" class="featurette-heading fw-normal lh-1" style="margin-top: 0rem;margin-bottom: 2rem">خدمتنا مميزة 🛞</h2>
+        <p id="feature2Line1" class="lead">نقدم خدمة ليموزين المؤتمرات لدينا حلاً نقلًا فاخرًا للمساهمة في نجاح المؤتمرات والاجتماعات</p>
+        <p id="feature2Line2" class="lead">ندرك مدى أهمية راحة رجال الأعمال في إنتاجيتهم</p>
+        <p id="feature2Line3" class="lead">تقدم خدمة الليموزين لحفلات الزفاف لدينا سيارات فاخرة مجهزة</p>
+        <p id="feature2Line4" class="lead">اختيار السيارة التي تتناسب مع ذوقك واحتياجك</p>
+      </div>
+      <div class="col-md-5">
+          <img src="assets/img/conferences.jpeg"  width="700" height="700" alt="Mitsubishi Xpander inside" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+          <title>ليموزين للاسر الكبيرة</title>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <a id="contact_us"></a>
+      <div class="col-md-7">
+        <h2 id="feature3Title" class="featurette-heading fw-normal lh-1" style="margin-top: 0rem;margin-bottom: 2rem">تواصل معنا 📱</h2>
+        <p id="feature3Line1" class="lead">📞  <a href="tel:+201550055896">00201550055896</a></p>
+        <p id="feature3Line2" class="lead"><svg class="bi me-2 opacity-50" width="1em" height="1em"><use href="#whatsapp"></use></svg><a href="whatsapp://send?phone=201550055896">00201550055896</a></p>
+        <p id="feature3Line3" class="lead">📨  <a class="lead" href= "mailto: nouh.limousine@gmail.com"> nouh.limousine@gmail.com </a></p>
+        <p id="feature3Line4" class="lead">أبراج سيتي لايت السيوف شماعة - الإسكندرية</p>
+      </div>
+      <div class="col-md-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d605.1219623928215!2d29.99220178679362!3d31.241672312676094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5dac368c621e5%3A0xfd722e9b53100f6f!2z2LPZitiq2Ykg2YTYp9mK2Ko!5e0!3m2!1sen!2seg!4v1722285446350!5m2!1sen!2seg" width="100%" height="100%" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="bd-placeholder-img bd-placeholder-img-lg " preserveAspectRatio="xMidYMid slice" focusable="false"></iframe>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">عد إلى الأعلى</a></p>
+    <p>&copy; Noah Limousine Online 2024</p>
+  </footer>
+</main>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
